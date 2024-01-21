@@ -7,12 +7,12 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('../views/ChatroomView.vue')
   },
   {
-    path: '/login',
+    path: '/chat-app/login',
     name: 'login',
     component: () => import('../views/LoginView.vue')
   }, 
   {
-    path: '/chat', 
+    path: '/chat-app/chat', 
     name: 'chat', 
     component: () => import('../views/ChatView.vue')
   }
