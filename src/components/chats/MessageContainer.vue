@@ -59,6 +59,7 @@
     .message-container {
         height: 48vh;
         margin: 0 20px;
+        
         .message-block {
             height: 100%;
             overflow: auto;
@@ -68,7 +69,7 @@
                 > span {
                     background: #27374D;
                     color: #9DB2BF;
-                    padding: 5px 15px;
+                    padding: 7px 15px;
                     border-radius: 20px;
                     font-size: 1.5rem;
                 }
