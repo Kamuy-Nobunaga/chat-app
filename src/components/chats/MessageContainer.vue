@@ -64,30 +64,39 @@
             height: 100%;
             overflow: auto;
             .user {
-                margin: 15px auto;
+                margin: 15px 0 15px auto;
                 text-align: end;
+                // width: 60%;
+                background: #27374D;
+                border-radius: 20px;
                 > span {
-                    background: #27374D;
+                    margin: 15px auto;
                     color: #9DB2BF;
-                    padding: 7px 15px;
-                    border-radius: 20px;
+                    padding: 7px 20px;
                     font-size: 1.5rem;
+                    line-height: 2rem;
+                    overflow-wrap: break-word;
                 }
             }
             .other-user {
                 > div {
+                    overflow-wrap: break-word;
+                    border-radius: 20px;
+                    background: #DDE6ED;
                     > span:first-child {
                         display: block;
                         color: #526D82;
-                        margin:0 0 3px 3px;
-                        font-size: 1.2rem;
+                        margin:15px 0 5px 3px;
+                        font-size: 2rem;
+                        font-weight: bolder;
+                        padding: 2px;
                     }
                     > span:last-child {
-                        background: #27374D;
-                        color: #9DB2BF;
-                        padding: 5px 15px;
-                        border-radius: 20px;
+                        margin:5px 0 15px 3px;
+                        color: #27374D;
+                        padding: 5px 20px;
                         font-size: 1.5rem;
+                        line-height: 2rem;
                     }
                 }
             }

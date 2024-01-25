@@ -63,12 +63,13 @@ import { ref, defineEmits } from 'vue';
           display: block;
           width: 50%;
           height: 3rem;
-          font-size: 1.5rem;
+          font-size: 1rem;
           padding: 10px;
           color: #526D82;
           font-weight: bold;
           background: #DDE6ED;
           border: none;
+          border-radius: 20px;
           outline: none;
         }
         > input[type="submit"] {
